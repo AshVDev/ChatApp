@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { CameraAlt as CameraAltIcon } from "@mui/icons-material";
-import { VisuallyHiddenInput } from "../components/StyledComponents";
+import { VisuallyHiddenInput } from "../components/styles/StyledComponents";
 import { useFileHandler, useInputValidation } from "6pp";
 import { usernameValidator } from "../utils/validators";
 
@@ -36,7 +36,7 @@ const Login = () => {
         alignItems: "center",
         minHeight: "100vh",
         width: "100vw",
-        backgroundColor: "#f0f0f0",
+        backgroundImage: "linear-gradient(rgb(255 255 209), rgb(249 159 159) ",
       }}
     >
       <Container component={"main"} maxWidth="xs">
